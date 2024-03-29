@@ -27,7 +27,8 @@ void AAuraEffectActor::BeginOverlap(UPrimitiveComponent* OverlappedComponent,
 		const UAuraAttributeSet* AuraAttributeSet = Cast<UAuraAttributeSet>(ASCInterface->GetAbilitySystemComponent()->GetAttributeSet(UAuraAttributeSet::StaticClass()));
 		//TODO: Just for test, should use Gameplay Effect to do this!!!
 		UAuraAttributeSet* MutableAuraAttributeSet = const_cast<UAuraAttributeSet*>(AuraAttributeSet);
-		MutableAuraAttributeSet->SetHealth(AuraAttributeSet->GetHealth() + 20.f);
+		MutableAuraAttributeSet->SetHealth(AuraAttributeSet->GetHealth() + 25.f);
+		MutableAuraAttributeSet->SetMana(AuraAttributeSet->GetMana() - 25.f);
 		Destroy();
 	}
 }
