@@ -4,13 +4,36 @@
 #include "AbilitySystem/AuraAttributeSet.h"
 
 #include "AbilitySystemBlueprintLibrary.h"
+#include "AuraGameplayTags.h"
 #include "GameplayEffectExtension.h"
 #include "GameFramework/Character.h"
 #include "Net/UnrealNetwork.h"
 
+#define REGISTER_ATTRIBUTE_TAG(AttributeType, AttributeName) \
+{ \
+	TagsToAttributes.Add(GameplayTags.Attributes_##AttributeType##_##AttributeName##, Get##AttributeName##Attribute);\
+}
+
 UAuraAttributeSet::UAuraAttributeSet()
 {
+	const FAuraGameplayTags& GameplayTags = FAuraGameplayTags::Get();
+	/* Primary Attributes */
+	REGISTER_ATTRIBUTE_TAG(Primary, Strength);
+	REGISTER_ATTRIBUTE_TAG(Primary, Intelligence);
+	REGISTER_ATTRIBUTE_TAG(Primary, Resilience);
+	REGISTER_ATTRIBUTE_TAG(Primary, Vigor);
 
+	/* Secondary Attributes */
+	REGISTER_ATTRIBUTE_TAG(Secondary, Armor);
+	REGISTER_ATTRIBUTE_TAG(Secondary, ArmorPenetration);
+	REGISTER_ATTRIBUTE_TAG(Secondary, BlockChance);
+	REGISTER_ATTRIBUTE_TAG(Secondary, CriticalHitChance);
+	REGISTER_ATTRIBUTE_TAG(Secondary, CriticalHitDamage);
+	REGISTER_ATTRIBUTE_TAG(Secondary, CriticalHitResistance);
+	REGISTER_ATTRIBUTE_TAG(Secondary, HealthRegeneration);
+	REGISTER_ATTRIBUTE_TAG(Secondary, ManaRegeneration);
+	REGISTER_ATTRIBUTE_TAG(Secondary, MaxHealth);
+	REGISTER_ATTRIBUTE_TAG(Secondary, MaxMana);
 }
 
 void UAuraAttributeSet::GetLifetimeReplicatedProps(TArray<FLifetimeProperty>& OutLifetimeProps) const
