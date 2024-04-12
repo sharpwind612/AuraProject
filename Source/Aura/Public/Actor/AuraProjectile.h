@@ -30,6 +30,8 @@ protected:
 		int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 	
 private:
+	UPROPERTY(EditDefaultsOnly)
+	float LifeSpan = 5.f;
 
 	bool bHit = false;
 	
@@ -41,4 +43,9 @@ private:
 
 	UPROPERTY(EditAnywhere)
 	TObjectPtr<USoundBase> ImpactSound;
+
+	UPROPERTY(EditAnywhere)
+	TObjectPtr<USoundBase> LoopingSound;
+	UPROPERTY()
+	TObjectPtr<UAudioComponent> LoopingSoundComponent;
 };
