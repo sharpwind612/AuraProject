@@ -9,7 +9,9 @@
 #include "NiagaraValidationRule.h"
 #include "GameFramework/Character.h"
 #include "Interaction/CombatInterface.h"
+#include "Kismet/GameplayStatics.h"
 #include "Net/UnrealNetwork.h"
+#include "Player/AuraPlayerController.h"
 
 #define REGISTER_ATTRIBUTE_TAG(AttributeType, AttributeName) \
 { \
@@ -151,6 +153,20 @@ void UAuraAttributeSet::PostGameplayEffectExecute(const FGameplayEffectModCallba
 				TagContainer.AddTag(FAuraGameplayTags::Get().Effects_HitReact);
 				Props.TargetASC->TryActivateAbilitiesByTag(TagContainer);
 			}
+
+			ShowFloatingText(Props, LocalIncomingDamage);
+		}
+	}
+}
+
+void UAuraAttributeSet::ShowFloatingText(const FEffectProperties& Props, float Damage) const
+{
+	//只有玩家自己造成的伤害会显示伤害飘字，飘字的位置会对其怪物对应的位置
+	if(Props.SourceCharacter != Props.TargetCharacter)
+	{
+		if(AAuraPlayerController* PC = Cast<AAuraPlayerController>(UGameplayStatics::GetPlayerController(Props.SourceCharacter, 0)))
+		{
+			PC->ShowDamageNumber(Damage, Props.TargetCharacter);
 		}
 	}
 }
