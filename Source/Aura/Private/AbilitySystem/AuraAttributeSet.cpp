@@ -174,7 +174,7 @@ void UAuraAttributeSet::ShowFloatingText(const FEffectProperties& Props, float D
 	//只有玩家自己造成的伤害会显示伤害飘字，飘字的位置会对其怪物对应的位置
 	if(Props.SourceCharacter != Props.TargetCharacter)
 	{
-		if(AAuraPlayerController* PC = Cast<AAuraPlayerController>(UGameplayStatics::GetPlayerController(Props.SourceCharacter, 0)))
+		if(AAuraPlayerController* PC = Cast<AAuraPlayerController>(Props.SourceCharacter->Controller))
 		{
 			PC->ShowDamageNumber(Damage, Props.TargetCharacter, bBlockedHit, bCriticalHit);
 		}

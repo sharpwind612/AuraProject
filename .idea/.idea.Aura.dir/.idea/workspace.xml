@@ -8,19 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d66ec39-7bb9-47dc-8440-e0b7a52c2486" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Aura.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aura.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/DA_AttributeInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/DA_AttributeInfo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/DA_CharacterClassInfo.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/Data/DA_CharacterClassInfo.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Arua/GE_SecondaryAttributes.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/Arua/GE_SecondaryAttributes.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes_Test.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/AbilitySystem/GameplayEffects/DefaultAttributes/GE_SecondaryAttributes_Test.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/UI/AttributeMenu/WBP_AttributeMenu.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/StartupMap.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/Abilities/AuraProjectileSpell.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/Abilities/AuraProjectileSpell.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/AuraAttributeSet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/ExecCalc/ExecCalc_Damage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AbilitySystem/ExecCalc/ExecCalc_Damage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/AuraGameplayTags.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/AuraGameplayTags.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AbilitySystem/AuraAttributeSet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/Aura/Public/AuraGameplayTags.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Public/AuraGameplayTags.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Actor/AuraProjectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Actor/AuraProjectile.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Character/AuraEnemy.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/Aura/Private/Player/AuraPlayerController.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +25,86 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="SWEA" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -53,9 +129,9 @@
   },
   "keyToStringList": {
     "rider.external.source.directories": [
-      "C:\\Users\\54795\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
-      "C:\\Users\\54795\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
-      "C:\\Users\\54795\\AppData\\Local\\Symbols\\src"
+      "C:\\Users\\guanjiewu\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache",
+      "C:\\Users\\guanjiewu\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache",
+      "C:\\Users\\guanjiewu\\AppData\\Local\\Symbols\\src"
     ]
   }
 }]]></component>
@@ -65,9 +141,9 @@
       <configuration_2>
         <option name="CONFIGURATION" value="DebugGame Editor" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="K:\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
-        <option name="WORKING_DIRECTORY" value="K:\Epic Games\UE_5.3" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;K:\UnrealProjects\AuraProject\Aura.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="D:\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor-Win64-DebugGame.exe" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal Projects\Aura\Aura.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -76,8 +152,8 @@
       <configuration_3>
         <option name="CONFIGURATION" value="DebugGame" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="K:\UnrealProjects\AuraProject\Binaries\Win64\Aura-Win64-DebugGame.exe" />
-        <option name="WORKING_DIRECTORY" value="K:\Epic Games\UE_5.3" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal Projects\Aura\Binaries\Win64\Aura-Win64-DebugGame.exe" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
@@ -87,9 +163,9 @@
       <configuration_4>
         <option name="CONFIGURATION" value="Development Editor" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="K:\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
-        <option name="WORKING_DIRECTORY" value="K:\Epic Games\UE_5.3" />
-        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;K:\UnrealProjects\AuraProject\Aura.uproject&quot;" />
+        <option name="EXECUTABLE_PATH" value="D:\Epic Games\UE_5.3\Engine\Binaries\Win64\UnrealEditor.exe" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\UE_5.3" />
+        <option name="MANDATORY_PROGRAM_PARAMETERS" value=" &quot;D:\Unreal Projects\Aura\Aura.uproject&quot;" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
         <option name="USE_EXTERNAL_CONSOLE" value="0" />
@@ -98,8 +174,8 @@
       <configuration_5>
         <option name="CONFIGURATION" value="Development" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="K:\UnrealProjects\AuraProject\Binaries\Win64\Aura.exe" />
-        <option name="WORKING_DIRECTORY" value="K:\Epic Games\UE_5.3" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal Projects\Aura\Binaries\Win64\Aura.exe" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
@@ -109,8 +185,8 @@
       <configuration_6>
         <option name="CONFIGURATION" value="Shipping" />
         <option name="PLATFORM" value="Win64" />
-        <option name="EXECUTABLE_PATH" value="K:\UnrealProjects\AuraProject\Binaries\Win64\Aura-Win64-Shipping.exe" />
-        <option name="WORKING_DIRECTORY" value="K:\Epic Games\UE_5.3" />
+        <option name="EXECUTABLE_PATH" value="D:\Unreal Projects\Aura\Binaries\Win64\Aura-Win64-Shipping.exe" />
+        <option name="WORKING_DIRECTORY" value="D:\Epic Games\UE_5.3" />
         <option name="MANDATORY_PROGRAM_PARAMETERS" value="" />
         <option name="CUSTOM_PROGRAM_PARAMETERS" value="" />
         <option name="PASS_PARENT_ENVS" value="1" />
@@ -132,6 +208,7 @@
       <updated>1710898758185</updated>
       <workItem from="1710898759897" duration="20000" />
       <workItem from="1713453459035" duration="4673000" />
+      <workItem from="1713490256036" duration="11264000" />
     </task>
     <servers />
   </component>
@@ -140,5 +217,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Uproject">
+        <watch expression="CharacterClassInformation" language="C++" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
