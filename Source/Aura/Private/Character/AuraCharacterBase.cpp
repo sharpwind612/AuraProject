@@ -166,6 +166,7 @@ void AAuraCharacterBase::AddCharacterAbilities() const
 	if(!HasAuthority()) return;
 
 	AuraASC->AddCharacterAbilities(StartupAbilities);
+	AuraASC->AddCharacterPassiveAbilities(StartupPassiveAbilities);
 }
 
 // 创建一个动态材质实例并设置到Mesh上
